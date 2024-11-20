@@ -21,7 +21,7 @@
 @use "./pages/notfound";
 
 // variables imports
-@use "./abstracts/variables" as *;
+@use "./abstracts/" as *;
 
 // layout imports
 @use "./layout/footer";
@@ -41,4 +41,9 @@ header {
   color: rgb(255, 255, 255);
   padding: 2rem;
   font-size: 1.5rem;
+
+  li {
+    // mixin
+    @include btnStyle(1rem);
+  }
 }
