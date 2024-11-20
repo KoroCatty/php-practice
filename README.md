@@ -1,5 +1,4 @@
-# (Template) PHP with MySQL (PHPMyAdmin) with Apache server & composer in Docker
-
+# PHP Practice
 
 <!-- Image -->
 <!-- ![](./screenshot.png) -->
